@@ -1,0 +1,456 @@
+/*
+
+Vivado v2017.2 (64-bit)
+SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+
+Process ID: 5064
+License: Customer
+
+Current time: 	4/19/18 12:52:24 PM CST
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 7
+OS Version: 6.1
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 189 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre
+JVM executable location: 	C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/java.exe
+Java library paths: C:/Xilinx/Vivado/2017.2/bin/unwrapped/win64.o;C:/Windows/Sun/Java/bin;C:/Windows/system32;C:/Windows;C:/Xilinx/Vivado/2017.2/bin;C:/Xilinx/Vivado/2017.2/lib/win64.o;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin/server;C:/Xilinx/Vivado/2017.2/tps/win64/jre/bin;C:/Xilinx/SDK/2017.2/bin;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2017.2/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado_HLS/2017.2/bin;C:/Program Files (x86)/Intel/iCLS Client/;C:/Program Files/Intel/iCLS Client/;C:/Windows/system32;C:/Windows;C:/Windows/System32/Wbem;C:/Windows/System32/WindowsPowerShell/v1.0/;C:/Program Files (x86)/Intel/UCRT/;C:/Program Files/Intel/UCRT/;C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/DAL;C:/Program Files/Intel/Intel(R) Management Engine Components/DAL;C:/Program Files (x86)/Intel/Intel(R) Management Engine Components/IPT;C:/Program Files/Intel/Intel(R) Management Engine Components/IPT;C:/Program Files (x86)/NVIDIA Corporation/PhysX/Common;C:/Program Files (x86)/IVI Foundation/VISA/WinNT/Bin/;C:/Program Files/IVI Foundation/VISA/Win64/Bin/;C:/Program Files/MATLAB/R2017a/runtime/win64;C:/Program Files/MATLAB/R2017a/bin;c:/altera/91/quartus/bin;C:/TDM-GCC-64/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/bin;C:/Xilinx/Vivado/2017.2/tps/mingw/6.2.0/win64.o/nt/libexec/gcc/x86_64-w64-mingw32/6.2.0;.
+
+User name: 	lenovo
+User home directory: C:/Users/lenovo
+User working directory: C:/Users/lenovo/Desktop/CPU_zfzdr
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2017.2
+RDI_DATADIR: C:/Xilinx/Vivado/2017.2/data
+RDI_BINDIR: C:/Xilinx/Vivado/2017.2/bin
+
+User preferences location: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado
+Vivado preferences directory: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2017.2/vivado.xml
+Vivado layouts directory: C:/Users/lenovo/AppData/Roaming/Xilinx/Vivado/2017.2/layouts
+PlanAhead jar location: 	C:/Xilinx/Vivado/2017.2/lib/classes/planAhead.jar
+Vivado Look & Feel: 	[Synthetica - the extended Synth Look and Feel. - ui.g.i.H]
+Engine tmp dir: 	C:/Users/lenovo/Desktop/CPU_zfzdr/.Xil/Vivado-5064-LabCenter21
+
+GUI allocated memory:	180 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 621 MB
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bs:g (cg:JFrame):  Open Project : addNotify
+// Opening Vivado Project: C:\Users\lenovo\Desktop\CPU_zfzdr\CPU_zfzdr.xpr. Version: Vivado v2017.2 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// [GUI Memory]: 59 MB (+59034kb) [00:00:04]
+// [Engine Memory]: 481 MB (+352901kb) [00:00:04]
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project C:/Users/lenovo/Desktop/CPU_zfzdr/CPU_zfzdr.xpr 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 63 MB (+1701kb) [00:00:05]
+// [Engine Memory]: 572 MB (+70498kb) [00:00:05]
+// [Engine Memory]: 607 MB (+6655kb) [00:00:06]
+// Tcl Message: open_project C:/Users/lenovo/Desktop/CPU_zfzdr/CPU_zfzdr.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.2/data/ip'. 
+// Project name: CPU_zfzdr; location: C:/Users/lenovo/Desktop/CPU_zfzdr; part: xc7a100tcsg324-1
+// [GUI Memory]: 72 MB (+5821kb) [00:00:07]
+dismissDialog("Open Project"); // bs:g (cg:JFrame)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// HMemoryUtils.trashcanNow. Engine heap size: 633 MB. GUI used memory: 40 MB. Current time: 4/19/18 12:52:25 PM CST
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 3); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, top_constrs.xdc]", 5, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, top_constrs.xdc]", 5, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+// [GUI Memory]: 77 MB (+959kb) [00:00:30]
+// [GUI Memory]: 82 MB (+1962kb) [00:00:39]
+// Elapsed time: 56 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_top (CPU_top.v)]", 2); // B:i (D:JPanel, cg:JFrame)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_top (CPU_top.v), myCPU : CPU (CPU.v)]", 4); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_top (CPU_top.v), myCPU : CPU (CPU.v), myMemory : Memory (Memory.v)]", 5, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_top (CPU_top.v), myCPU : CPU (CPU.v), myMemory : Memory (Memory.v)]", 5, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+selectCodeEditor("Memory.v", 1, 47); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Memory.v", 544, 167); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Bitstream Generation Completed: addNotify
+// [GUI Memory]: 87 MB (+395kb) [00:01:41]
+// Elapsed time: 19 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bs:g (cg:JFrame):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_3 
+// [GUI Memory]: 92 MB (+945kb) [00:01:46]
+// HMemoryUtils.trashcanNow. Engine heap size: 672 MB. GUI used memory: 45 MB. Current time: 4/19/18 12:54:05 PM CST
+selectButton(RDIResource.ProgressDialog_BACKGROUND, "Background"); // a:JButton (JPanel:JComponent, bs:g)
+// 'dH' command handler elapsed time: 5 seconds
+// [Engine Memory]: 797 MB (+167170kb) [00:01:50]
+// TclEventType: READ_XDC_FILE_START
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: LOC_CONSTRAINT_ADD
+// TclEventType: SIGNAL_MODIFY
+// TclEventType: READ_XDC_FILE_END
+// [Engine Memory]: 953 MB (+122070kb) [00:01:56]
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 953 MB. GUI used memory: 44 MB. Current time: 4/19/18 12:54:13 PM CST
+// TclEventType: DESIGN_NEW
+// [Engine Memory]: 1,033 MB (+33111kb) [00:01:57]
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// [Engine Memory]: 1,087 MB (+2892kb) [00:01:59]
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Netlist 29-17] Analyzing 143 Unisim elements for replacement INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds INFO: [Project 1-479] Netlist was created with Vivado 2017.2 INFO: [Device 21-403] Loading part xc7a100tcsg324-1 INFO: [Project 1-570] Preparing netlist for logic optimization 
+// Tcl Message: Parsing XDC File [C:/Users/lenovo/Desktop/CPU_zfzdr/.Xil/Vivado-5064-LabCenter21/dcp1/CPU_top.xdc] Finished Parsing XDC File [C:/Users/lenovo/Desktop/CPU_zfzdr/.Xil/Vivado-5064-LabCenter21/dcp1/CPU_top.xdc] Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1165.766 ; gain = 35.695 
+// Tcl Message: Restored from archive | CPU: 3.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 1165.766 ; gain = 35.695 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// TclEventType: DRC_ADDED
+// Tcl Message: open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:14 . Memory (MB): peak = 1300.887 ; gain = 419.453 
+// TclEventType: DRC_ADDED
+// [GUI Memory]: 103 MB (+6238kb) [00:02:00]
+// [Engine Memory]: 1,143 MB (+1403kb) [00:02:01]
+// TclEventType: METHODOLOGY_ADDED
+// [GUI Memory]: 119 MB (+12023kb) [00:02:01]
+// [Engine Memory]: 1,205 MB (+5522kb) [00:02:01]
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// RouteApi::loadEngineXgd elapsed time: 4.6s
+// TclEventType: METHODOLOGY_ADDED
+// [GUI Memory]: 129 MB (+3755kb) [00:02:02]
+// [Engine Memory]: 1,267 MB (+1561kb) [00:02:02]
+// TclEventType: POWER_UPDATED
+// [GUI Memory]: 136 MB (+488kb) [00:02:03]
+// [GUI Memory]: 143 MB (+578kb) [00:02:04]
+// [GUI Memory]: 151 MB (+634kb) [00:02:05]
+// [GUI Memory]: 160 MB (+1264kb) [00:02:05]
+// [Engine Memory]: 1,346 MB (+16684kb) [00:02:07]
+// Elapsed time: 17 seconds
+selectTab((HResource) null, (HResource) null, "Package Pins", 8); // aF:FrameContainer (ContainerContainer:JideSplitPane, cg:JFrame)
+// TclEventType: TIMING_SUMMARY_UPDATED
+// [GUI Memory]: 170 MB (+2869kb) [00:02:09]
+// [Engine Memory]: 1,415 MB (+1378kb) [00:02:10]
+// RouteApi::initDelayMediator elapsed time: 11.5s
+// [Engine Memory]: 1,728 MB (+253922kb) [00:02:15]
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// HMemoryUtils.trashcanNow. Engine heap size: 1,733 MB. GUI used memory: 154 MB. Current time: 4/19/18 12:55:17 PM CST
+// Elapsed time: 53 seconds
+dismissDialog("Open Implemented Design"); // bs:g (cg:JFrame)
+// Elapsed time: 11 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// [GUI Memory]: 186 MB (+7009kb) [00:03:12]
+// Device view-level: 0.0
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 31, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton("PAResourceQtoS.RunBitgen_BITSTREAM_GENERATION_HAS_ALREADY_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+// 'cp' command handler elapsed time: 4 seconds
+// [GUI Memory]: 198 MB (+2749kb) [00:03:22]
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 31, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton("PAResourceQtoS.RunBitgen_BITSTREAM_GENERATION_HAS_ALREADY_COMPLETED_OK", "OK"); // JButton:AbstractButton (JPanel:JComponent, G:JDialog)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// 'cp' command handler elapsed time: 6 seconds
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_3 -prev_step  
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_3 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Thu Apr 19 12:55:47 2018] Launched impl_3... Run output will be captured here: C:/Users/lenovo/Desktop/CPU_zfzdr/CPU_zfzdr.runs/impl_3/runme.log 
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Memory.v", 3); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Elapsed time: 20 seconds
+selectCodeEditor("Memory.v", 160, 278); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Memory.v", 57, 275); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Memory.v", 206, 270); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Memory.v", 55, 292); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Memory.v", 200, 295); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Memory.v", 54, 314); // bI:J (JPanel:JComponent, cg:JFrame)
+selectCodeEditor("Memory.v", 179, 317); // bI:J (JPanel:JComponent, cg:JFrame)
+// Elapsed time: 11 seconds
+selectCodeEditor("Memory.v", 157, 338); // bI:J (JPanel:JComponent, cg:JFrame)
+// TclEventType: RUN_COMPLETED
+// ah:x (cg:JFrame): Bitstream Generation Completed: addNotify
+selectRadioButton(PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER, "Open Hardware Manager"); // a:JRadioButton (JPanel:JComponent, ah:x)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_HARDWARE_MANAGER
+// Tcl Command: 'rdi::info_commands get_hw_probes'
+// Tcl Command: 'load_features labtools'
+// TclEventType: LOAD_FEATURE
+// TclEventType: HW_SESSION_OPEN
+// Tcl Message: open_hw 
+dismissDialog("Bitstream Generation Completed"); // ah:x (cg:JFrame)
+// Elapsed time: 25 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_OPEN_TARGET, "Open target"); // h:k (JPanel:JComponent, cg:JFrame)
+selectMenu(PAResourceOtoP.ProgramDebugTab_OPEN_RECENTLY_OPENED_TARGET, "Recent Targets"); // Z:JMenu (ai:JPopupMenu, cg:JFrame)
+selectMenuItem(PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET, "Auto Connect"); // ac:JMenuItem (ai:JPopupMenu, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_AUTO_CONNECT_TARGET
+// bs:g (cg:JFrame):  Auto Connect : addNotify
+// Tcl Message: connect_hw_server 
+// Tcl Message: INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121 
+// Tcl Message: INFO: [Labtools 27-2222] Launching hw_server... 
+// TclEventType: HW_SERVER_UPDATE
+// Tcl Message: INFO: [Labtools 27-2221] Launch Output:  ****** Xilinx hw_server v2017.2   **** Build date : Jun 15 2017-18:53:26     ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.   
+dismissDialog("Auto Connect"); // bs:g (cg:JFrame)
+// TclEventType: HW_TARGET_NEEDS_CLOSE
+// TclEventType: HW_SERVER_UPDATE
+// TclEventType: HW_TARGET_CHANGE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_ADD
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// [Engine Memory]: 1,892 MB (+81208kb) [00:05:01]
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 1,893 MB. GUI used memory: 154 MB. Current time: 4/19/18 12:57:20 PM CST
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cg:JFrame)
+// PAPropertyPanels.initPanels (xc7a100t_0) elapsed time: 0.2s
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bz:aD (cg:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, bz:aD)
+// bs:g (cg:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // bz:aD (cg:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/CPU_zfzdr/CPU_zfzdr.runs/impl_3/CPU_top.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 4 seconds
+dismissDialog("Program Device"); // bs:g (cg:JFrame)
+// Elapsed time: 47 seconds
+selectButton(PAResourceOtoP.ProgramDebugTab_PROGRAM_DEVICE, "Program device"); // h:k (JPanel:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_PROGRAM_FPGA
+// bz:aD (cg:JFrame): Program Device: addNotify
+selectButton(PAResourceOtoP.ProgramFpgaDialog_PROGRAM, "Program"); // a:JButton (JPanel:JComponent, bz:aD)
+// bs:g (cg:JFrame):  Program Device : addNotify
+dismissDialog("Program Device"); // bz:aD (cg:JFrame)
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// Tcl Message: set_property FULL_PROBES.FILE {} [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: set_property PROGRAM.FILE {C:/Users/lenovo/Desktop/CPU_zfzdr/CPU_zfzdr.runs/impl_3/CPU_top.bit} [get_hw_devices xc7a100t_0] 
+// Tcl Message: program_hw_devices [get_hw_devices xc7a100t_0] 
+// TclEventType: HW_DEVICE_CHANGE
+// Tcl Message: INFO: [Labtools 27-3164] End of startup status: HIGH 
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_SYSMON_CHANGE
+// TclEventType: HW_DEVICE_UPDATE
+// TclEventType: HW_DEVICE_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// TclEventType: HW_DEVICE_PROBES_CHANGE
+// Tcl Message: refresh_hw_device [lindex [get_hw_devices xc7a100t_0] 0] 
+// Tcl Message: INFO: [Labtools 27-1434] Device xc7a100t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it. 
+// 'I' command handler elapsed time: 3 seconds
+dismissDialog("Program Device"); // bs:g (cg:JFrame)
+// Elapsed time: 56 seconds
+selectButton(PAResourceTtoZ.TaskBanner_CLOSE, (String) null); // k:JideButton (JPanel:JComponent, cg:JFrame)
+closeTask("Program and Debug", "Hardware Manager", "DesignTask.PROGRAM_DEBUG");
+// x:aN (cg:JFrame): Confirm Close: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, x:aN)
+dismissDialog("Confirm Close"); // x:aN (cg:JFrame)
+// TclEventType: HW_OBJECT_DELETE
+// TclEventType: HW_SERVER_CLOSE
+// TclEventType: HW_SYSMON_DELETE
+// TclEventType: HW_TARGET_CLOSE
+// TclEventType: HW_TARGET_UPDATE
+// TclEventType: DEBUG_PROBE_DELETE
+// TclEventType: HW_SESSION_CLOSE
+// Tcl Message: close_hw 
+// bs:g (cg:JFrame):  CLose Hardware Manager : addNotify
+dismissDialog("CLose Hardware Manager"); // bs:g (cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ACCdata (16) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1); // E:af (JViewport:JComponent, cg:JFrame)
+// [GUI Memory]: 208 MB (+889kb) [00:07:30]
+// Elapsed time: 17 seconds
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ACCdata (16) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1); // E:af (JViewport:JComponent, cg:JFrame)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (2) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 4); // E:af (JViewport:JComponent, cg:JFrame)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ACCdata (16) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1); // E:af (JViewport:JComponent, cg:JFrame)
+// HMemoryUtils.trashcanNow. Engine heap size: 1,953 MB. GUI used memory: 154 MB. Current time: 4/19/18 1:01:30 PM CST
+// Elapsed time: 91 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_top (CPU_top.v)]", 2, true); // B:i (D:JPanel, cg:JFrame) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_top (CPU_top.v)]", 2, true, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click - Node
+// Elapsed time: 57 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_top (CPU_top.v)]", 2); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_top (CPU_top.v), myCPU : CPU (CPU.v), myregister : CPU_register (CPU_register.v)]", 8, false); // B:i (D:JPanel, cg:JFrame)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, CPU_top (CPU_top.v), myCPU : CPU (CPU.v), myregister : CPU_register (CPU_register.v)]", 8, false, false, false, false, false, true); // B:i (D:JPanel, cg:JFrame) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("CPU_register.v", 339, 194); // bI:J (JPanel:JComponent, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Device", 1); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Package", 0); // k:TdiGroup (j:CodeEditorDocumentPane, cg:JFrame)
+// Schematic: addNotify
+// Elapsed time: 12 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ACCdata (16) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1, "true", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ACCdata (16) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1, "true", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed false [get_ports [list  {ACCdata[15]} {ACCdata[14]} {ACCdata[13]} {ACCdata[12]} {ACCdata[11]} {ACCdata[10]} {ACCdata[9]} {ACCdata[8]} {ACCdata[7]} {ACCdata[6]} {ACCdata[5]} {ACCdata[4]} {ACCdata[3]} {ACCdata[2]} {ACCdata[1]} {ACCdata[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ACCdata (16) ; OUT ;  ;  ; false ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1, "false", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed true [get_ports [list  {ACCdata[15]} {ACCdata[14]} {ACCdata[13]} {ACCdata[12]} {ACCdata[11]} {ACCdata[10]} {ACCdata[9]} {ACCdata[8]} {ACCdata[7]} {ACCdata[6]} {ACCdata[5]} {ACCdata[4]} {ACCdata[3]} {ACCdata[2]} {ACCdata[1]} {ACCdata[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ACCdata (16) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1, "true", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed false [get_ports [list  {ACCdata[15]} {ACCdata[14]} {ACCdata[13]} {ACCdata[12]} {ACCdata[11]} {ACCdata[10]} {ACCdata[9]} {ACCdata[8]} {ACCdata[7]} {ACCdata[6]} {ACCdata[5]} {ACCdata[4]} {ACCdata[3]} {ACCdata[2]} {ACCdata[1]} {ACCdata[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ACCdata (16) ; OUT ;  ;  ; false ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1, "false", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed true [get_ports [list  {ACCdata[15]} {ACCdata[14]} {ACCdata[13]} {ACCdata[12]} {ACCdata[11]} {ACCdata[10]} {ACCdata[9]} {ACCdata[8]} {ACCdata[7]} {ACCdata[6]} {ACCdata[5]} {ACCdata[4]} {ACCdata[3]} {ACCdata[2]} {ACCdata[1]} {ACCdata[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ACCdata (16) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1, "true", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed false [get_ports [list  {ACCdata[15]} {ACCdata[14]} {ACCdata[13]} {ACCdata[12]} {ACCdata[11]} {ACCdata[10]} {ACCdata[9]} {ACCdata[8]} {ACCdata[7]} {ACCdata[6]} {ACCdata[5]} {ACCdata[4]} {ACCdata[3]} {ACCdata[2]} {ACCdata[1]} {ACCdata[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ACCdata (16) ; OUT ;  ;  ; false ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1, "false", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed true [get_ports [list  {ACCdata[15]} {ACCdata[14]} {ACCdata[13]} {ACCdata[12]} {ACCdata[11]} {ACCdata[10]} {ACCdata[9]} {ACCdata[8]} {ACCdata[7]} {ACCdata[6]} {ACCdata[5]} {ACCdata[4]} {ACCdata[3]} {ACCdata[2]} {ACCdata[1]} {ACCdata[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ACCdata (16) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1, "true", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed false [get_ports [list  {ACCdata[15]} {ACCdata[14]} {ACCdata[13]} {ACCdata[12]} {ACCdata[11]} {ACCdata[10]} {ACCdata[9]} {ACCdata[8]} {ACCdata[7]} {ACCdata[6]} {ACCdata[5]} {ACCdata[4]} {ACCdata[3]} {ACCdata[2]} {ACCdata[1]} {ACCdata[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ACCdata (16) ; OUT ;  ;  ; false ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1, "false", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed true [get_ports [list  {ACCdata[15]} {ACCdata[14]} {ACCdata[13]} {ACCdata[12]} {ACCdata[11]} {ACCdata[10]} {ACCdata[9]} {ACCdata[8]} {ACCdata[7]} {ACCdata[6]} {ACCdata[5]} {ACCdata[4]} {ACCdata[3]} {ACCdata[2]} {ACCdata[1]} {ACCdata[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ACCdata (16) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1, "true", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed false [get_ports [list  {ACCdata[15]} {ACCdata[14]} {ACCdata[13]} {ACCdata[12]} {ACCdata[11]} {ACCdata[10]} {ACCdata[9]} {ACCdata[8]} {ACCdata[7]} {ACCdata[6]} {ACCdata[5]} {ACCdata[4]} {ACCdata[3]} {ACCdata[2]} {ACCdata[1]} {ACCdata[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "All ports (31) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0, "All ports (31)", 0, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "All ports (31) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 0, "All ports (31)", 0, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "choose (6) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 18, "true", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed false [get_ports [list  {choose[5]} {choose[4]} {choose[3]} {choose[2]} {choose[1]} {choose[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "data (7) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 19, "true", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed false [get_ports [list  {data[6]} {data[5]} {data[4]} {data[3]} {data[2]} {data[1]} {data[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "choose (6) ; OUT ;  ;  ; false ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 18, "false", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed true [get_ports [list  {choose[5]} {choose[4]} {choose[3]} {choose[2]} {choose[1]} {choose[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "choose (6) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 18, "true", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed false [get_ports [list  {choose[5]} {choose[4]} {choose[3]} {choose[2]} {choose[1]} {choose[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "choose (6) ; OUT ;  ;  ; false ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 18, "false", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed true [get_ports [list  {choose[5]} {choose[4]} {choose[3]} {choose[2]} {choose[1]} {choose[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "choose (6) ; OUT ;  ;  ; true ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 18, "true", 4, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed false [get_ports [list  {choose[5]} {choose[4]} {choose[3]} {choose[2]} {choose[1]} {choose[0]}]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "CLK ; IN ;  ; E3 ; true ; 35 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; ", 21, "true", 4, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed false [get_ports [list  CLK]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "RST ; IN ;  ; J15 ; true ; 15 ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; ", 22, "true", 4, false); // E:af (JViewport:JComponent, cg:JFrame)
+// TclEventType: LOC_CONSTRAINT_REMOVE
+// TclEventType: LOC_CONSTRAINT_ADD
+// Tcl Message: set_property is_loc_fixed false [get_ports [list  RST]] 
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Program and Debug, Generate Bitstream]", 31, false); // u:M (JViewport:JComponent, cg:JFrame)
+// Run Command: PAResourceCommand.PACommandNames_RUN_BITGEN
+// ak:q (cg:JFrame): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a:JButton (JPanel:JComponent, ak:q)
+// x:aN (cg:JFrame): Out of Date Design: addNotify
+dismissDialog("Save Project"); // ak:q (cg:JFrame)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, x:aN)
+// bs:g (cg:JFrame):  Save Constraints : addNotify
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Out of Date Design"); // x:aN (cg:JFrame)
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: save_constraints 
+// x:aN (cg:JFrame): Implementation is Out-of-date: addNotify
+dismissDialog("Save Constraints"); // bs:g (cg:JFrame)
+selectButton(RDIResource.BaseDialog_YES, "Yes"); // a:JButton (JPanel:JComponent, x:aN)
+// bs:g (cg:JFrame):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+dismissDialog("Implementation is Out-of-date"); // x:aN (cg:JFrame)
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run impl_3 
+// f:p (cg:JFrame): Launch Runs: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, f:p)
+// 'cp' command handler elapsed time: 5 seconds
+dismissDialog("Launch Runs"); // f:p (cg:JFrame)
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_3 -to_step write_bitstream -jobs 8 
+// Tcl Message: [Thu Apr 19 13:04:03 2018] Launched impl_3... Run output will be captured here: C:/Users/lenovo/Desktop/CPU_zfzdr/CPU_zfzdr.runs/impl_3/runme.log 
+// TclEventType: RUN_STEP_COMPLETED
+// Elapsed time: 73 seconds
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "choose (6) ; OUT ;  ;  ; false ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 18); // E:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "choose (6) ; OUT ;  ;  ; false ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 18); // E:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (2) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 20); // E:af (JViewport:JComponent, cg:JFrame)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (2) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 20, "Scalar ports (2)", 0, true); // E:af (JViewport:JComponent, cg:JFrame) - Node
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (2) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 20); // E:af (JViewport:JComponent, cg:JFrame)
+// Elapsed time: 14 seconds
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "data (7) ; OUT ;  ;  ; false ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 19); // E:af (JViewport:JComponent, cg:JFrame)
+collapseTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "data (7) ; OUT ;  ;  ; false ; (Multiple) ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 19); // E:af (JViewport:JComponent, cg:JFrame)
+// [GUI Memory]: 224 MB (+5085kb) [00:13:28]
+// TclEventType: RUN_FAILED
+// ah:x (cg:JFrame): Bitstream Generation Failed: addNotify
+// Elapsed time: 117 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a:JButton (JPanel:JComponent, ah:x)
+// Run Command: PAResourceCommand.PACommandNames_LOG_WINDOW
+dismissDialog("Bitstream Generation Failed"); // ah:x (cg:JFrame)
+// Elapsed time: 20 seconds
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_3 ; constrs_1 ; write_bitstream ERROR ;  ;  ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ; Thu Apr 19 13:04:12 CST 2018 ; 00:03:20 ; Vivado Implementation Defaults (Vivado Implementation 2017) ; xc7a100tcsg324-1 ; Default settings for Implementation.", 4, "impl_3", 0, false); // V:af (JViewport:JComponent, cg:JFrame)
+// PAPropertyPanels.initPanels (impl_3) elapsed time: 0.3s
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_3 ; constrs_1 ; write_bitstream ERROR ;  ;  ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ; Thu Apr 19 13:04:12 CST 2018 ; 00:03:20 ; Vivado Implementation Defaults (Vivado Implementation 2017) ; xc7a100tcsg324-1 ; Default settings for Implementation.", 4, "impl_3", 0, false); // V:af (JViewport:JComponent, cg:JFrame)
+expandTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_3 ; constrs_1 ; write_bitstream ERROR ;  ;  ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ; Thu Apr 19 13:04:12 CST 2018 ; 00:03:20 ; Vivado Implementation Defaults (Vivado Implementation 2017) ; xc7a100tcsg324-1 ; Default settings for Implementation.", 4); // V:af (JViewport:JComponent, cg:JFrame)
+selectTreeTable(PAResourceEtoH.ExpRunTreePanel_EXP_RUN_TREE_TABLE, "impl_3 ; constrs_1 ; write_bitstream ERROR ;  ;  ;  ;  ;  ;  ; 0 ;  ;  ;  ;  ;  ; Thu Apr 19 13:04:12 CST 2018 ; 00:03:20 ; Vivado Implementation Defaults (Vivado Implementation 2017) ; xc7a100tcsg324-1 ; Default settings for Implementation.", 4, "impl_3", 0, false, false, false, false, false, true); // V:af (JViewport:JComponent, cg:JFrame) - Double Click
+maximizeFrame(RDIResource.RDIViews_PROPERTIES, "Source File Properties"); // ax:DockableFrame (aF:FrameContainer, cg:JFrame)

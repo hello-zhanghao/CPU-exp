@@ -1,0 +1,6 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  "CPU_top_sim_time_impl.v"
+verilog xil_defaultlib  "../../../../CPU_zfzdr.srcs/sim_1/new/CPU_top_sim.v"
+
+# Do not sort compile order
+nosort

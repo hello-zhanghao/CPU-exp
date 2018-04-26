@@ -1,0 +1,23 @@
+0.6
+2017.2
+Jun 15 2017
+18:52:51
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.sim/sim_1/behav/glbl.v,1497407496,verilog,,,,glbl,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sim_1/new/CPU_top_sim.v,1524652746,verilog,,,,CPU_top_sim,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/ACC.v,1524630870,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,ACC,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/ALU.v,1524652302,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,ALU,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/BR.v,1524631388,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,BR,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/CPU.v,1524640008,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,CPU,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/CPU_top.v,1524652798,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,CPU_top,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/CS.v,1524633516,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,CS,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/ControlUnit.v,1524638986,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,ControlUnit,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/IR.v,1524631464,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,IR,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/MAR.v,1524633724,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,MAR,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/MBR.v,1524630836,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,MBR,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,1524628658,verilog,,,,,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Memory.v,1524716597,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,Memory,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/PC.v,1524631898,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,PC,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/binary_to_BCD.v,1524496376,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,binary_to_BCD,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/clock_all.v,1524305412,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,clock_all,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/key_test.v,1524057012,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,key_test,,,,,,,,
+C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/scan_seg.v,1524304822,verilog,,,C:/Users/lab/Desktop/CPU_new/CPU_zfzdr/CPU_zfzdr.srcs/sources_1/new/Macro.v,scan_seg,,,,,,,,

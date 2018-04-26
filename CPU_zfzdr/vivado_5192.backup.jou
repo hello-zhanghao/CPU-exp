@@ -1,0 +1,13 @@
+#-----------------------------------------------------------
+# Vivado v2017.2 (64-bit)
+# SW Build 1909853 on Thu Jun 15 18:39:09 MDT 2017
+# IP Build 1909766 on Thu Jun 15 19:58:00 MDT 2017
+# Start of session at: Wed Apr 25 16:34:30 2018
+# Process ID: 5192
+# Current directory: C:/Users/lenovo/Desktop/zfzdr4_25/zfzdr/CPU_zfzdr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5916 C:\Users\lenovo\Desktop\zfzdr4_25\zfzdr\CPU_zfzdr\CPU_zfzdr.xpr
+# Log file: C:/Users/lenovo/Desktop/zfzdr4_25/zfzdr/CPU_zfzdr/vivado.log
+# Journal file: C:/Users/lenovo/Desktop/zfzdr4_25/zfzdr/CPU_zfzdr\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/lenovo/Desktop/zfzdr4_25/zfzdr/CPU_zfzdr/CPU_zfzdr.xpr
